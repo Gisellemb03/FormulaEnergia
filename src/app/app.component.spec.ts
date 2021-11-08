@@ -14,13 +14,13 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
-  xit('should create the app', () => {
+  it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  xit(`should have as title 'formulaEnergia'`, () => {
+  it(`should have as title 'formulaEnergia'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('formulaEnergia');
